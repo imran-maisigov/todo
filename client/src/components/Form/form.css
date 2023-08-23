@@ -1,0 +1,38 @@
+.todo-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  transform: translateY(-50%);
+}
+
+.todo-form__input {
+  padding: 16px;
+
+  flex: 1;
+
+  border: 1px solid #0d0d0d;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  background-color: #262626;
+}
+
+.todo-form__btn {
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  border-radius: 8px;
+
+  background-color: #1e6f9f;
+
+  cursor: pointer;
+}

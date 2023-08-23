@@ -1,0 +1,32 @@
+.todo-filter {
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-filter__text {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.todo-flter__count {
+  padding: 2px 8px;
+
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+
+  border-radius: 9px;
+
+  background: #333;
+}
+
+.text--blue {
+  color: #4ea8de;
+}
+
+.text--purple {
+  color: #8284fa;
+}

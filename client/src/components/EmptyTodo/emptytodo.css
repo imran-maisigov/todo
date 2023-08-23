@@ -1,0 +1,17 @@
+.empty-todo {
+  padding: 64px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+
+  text-align: center;
+  color: #808080;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6rem;
+
+  border-top: 1px solid #333;
+}
