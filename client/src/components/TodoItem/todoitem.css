@@ -18,6 +18,11 @@
   flex: 1;
 }
 
+.todo-title.active {
+  color: #808080;
+  text-decoration: line-through;
+}
+
 .todo-btn {
   padding: 5px;
 

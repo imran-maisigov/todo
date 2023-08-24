@@ -8,20 +8,23 @@ import Login from "./pages/Auth/Login";
 
 // components
 import Header from "./components/Header/Header";
+import { DataProvider } from "./GlobalState";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Header />
+    <DataProvider>
+      <BrowserRouter>
+        <Header />
 
-      <main className="app-main">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-        </Routes>
-      </main>
-    </BrowserRouter>
+        <main className="app-main">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+          </Routes>
+        </main>
+      </BrowserRouter>
+    </DataProvider>
   );
 };
 
